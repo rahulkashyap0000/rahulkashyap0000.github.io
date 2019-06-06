@@ -70,6 +70,9 @@
       }
     }
   });
+  $(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 
   // Closes responsive menu when a scroll trigger link is clicked
   $(".js-scroll").on("click", function() {
